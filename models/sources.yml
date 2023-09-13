@@ -18,19 +18,42 @@ sources:
       error_after: {count: 90, period: day}
 
     tables:
+      #tables created by protheus job
+      - name: company
+        identifier: stg_protheus_carol_company
+      - name: currency
+        identifier: stg_protheus_carol_currency
+      - name: mapping
+        identifier: stg_protheus_carol_mapping
+      - name: organization
+        identifier: stg_protheus_carol_organization
+      - name: protheus_sharing
+        identifier: stg_protheus_carol_protheus_sharing
+
+      #native protheus tables
       - name: se1
         identifier: stg_protheus_carol_se1
         columns:
           - name: deleted
-            description: ""
-            tests:
+            tests: 
               - dbt_expectations.expect_column_to_exist
-              - dbt_expectations.expect_column_values_to_be_null
+        tests: 
+          - dbt_expectations.expect_column_pair_values_to_be_equal:
+              column_A: TIMESTAMP
+              column_B: TIME_STAMP
+          - dbt_expectations.expect_column_pair_values_to_be_equal:
+              column_A: INSERTSTAMP
+              column_B: INSERT_STAMP
       - name: se2
         identifier: stg_protheus_carol_se2
         columns:
           - name: deleted
-            description: ""
-            tests:
+            tests: 
               - dbt_expectations.expect_column_to_exist
-              - dbt_expectations.expect_column_values_to_be_null
+        tests: 
+          - dbt_expectations.expect_column_pair_values_to_be_equal:
+              column_A: TIMESTAMP
+              column_B: TIME_STAMP
+          - dbt_expectations.expect_column_pair_values_to_be_equal:
+              column_A: INSERTSTAMP
+              column_B: INSERT_STAMP

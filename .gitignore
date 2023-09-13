@@ -5,3 +5,4 @@ logs/
 .venv
 .user*
 serviceaccount.json
+profiles.yml
