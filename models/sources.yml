@@ -1,0 +1,36 @@
+version: 2
+
+sources:
+  - name: protheus
+    database: "{{ target.project }}"
+    schema: "{{ target.dataset }}"
+
+    quoting:
+      database: true
+      schema: true
+      identifier: true
+
+    loader: smartlink
+    loaded_at_field: _ingestionDateTime
+
+    freshness:
+      warn_after: {count: 30, period: day}
+      error_after: {count: 90, period: day}
+
+    tables:
+      - name: se1
+        identifier: stg_protheus_carol_se1
+        columns:
+          - name: deleted
+            description: ""
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_be_null
+      - name: se2
+        identifier: stg_protheus_carol_se2
+        columns:
+          - name: deleted
+            description: ""
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_be_null
