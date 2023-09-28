@@ -36,6 +36,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -46,6 +48,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -56,6 +60,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -66,6 +72,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -76,6 +84,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -86,6 +96,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -96,6 +108,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -106,6 +120,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -116,6 +132,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -126,6 +144,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -136,6 +156,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -146,6 +168,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -156,6 +180,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -166,6 +192,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -176,6 +204,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -186,6 +216,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -196,6 +228,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -206,6 +240,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -216,6 +252,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -226,6 +264,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -236,6 +276,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -246,6 +288,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -256,6 +300,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -266,6 +312,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -276,6 +324,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -286,6 +336,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -296,6 +348,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -306,6 +360,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -316,6 +372,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -326,6 +384,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -336,6 +396,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -346,6 +408,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -356,6 +420,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -366,6 +432,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -376,6 +444,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -386,6 +456,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -396,6 +468,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -406,6 +480,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -416,6 +492,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -426,6 +504,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -436,6 +516,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -446,6 +528,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -456,6 +540,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -466,6 +552,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -476,6 +564,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -486,6 +576,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -496,6 +588,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -506,6 +600,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -516,6 +612,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -526,6 +624,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -536,6 +636,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -546,6 +648,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -556,6 +660,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -566,6 +672,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -576,6 +684,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -586,6 +696,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -596,6 +708,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -606,6 +720,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -616,6 +732,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -626,6 +744,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -636,6 +756,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -646,6 +768,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -656,6 +780,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -666,6 +792,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -676,6 +804,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -686,6 +816,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -696,6 +828,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -706,6 +840,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -716,6 +852,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -726,6 +864,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -736,6 +876,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -746,6 +888,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -756,6 +900,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -766,6 +912,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -776,6 +924,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -786,6 +936,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -796,6 +948,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -806,6 +960,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -816,6 +972,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
@@ -826,6 +984,8 @@ sources:
         tests:
           - dbt_expectations.expect_compound_columns_to_be_unique:
               column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
+              config:
+                severity: warn
         columns:
           - name: protheus_pk
             tests:
