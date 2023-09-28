@@ -31,29 +31,576 @@ sources:
         identifier: stg_protheus_carol_protheus_sharing
 
       #native protheus tables
-      - name: se1
-        identifier: stg_protheus_carol_se1
+      - name: sc2 
+        identifier: stg_protheus_carol_sc2
         columns:
-          - name: deleted
-            tests: 
+          - name: protheus_pk
+            tests:
               - dbt_expectations.expect_column_to_exist
-        tests: 
-          - dbt_expectations.expect_column_pair_values_to_be_equal:
-              column_A: TIMESTAMP
-              column_B: TIME_STAMP
-          - dbt_expectations.expect_column_pair_values_to_be_equal:
-              column_A: INSERTSTAMP
-              column_B: INSERT_STAMP
-      - name: se2
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: fk2 
+        identifier: stg_protheus_carol_fk2
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sa3 
+        identifier: stg_protheus_carol_sa3
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: se8 
+        identifier: stg_protheus_carol_se8
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sd7 
+        identifier: stg_protheus_carol_sd7
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: fk3 
+        identifier: stg_protheus_carol_fk3
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cq6 
+        identifier: stg_protheus_carol_cq6
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sx5 
+        identifier: stg_protheus_carol_sx5
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: fka 
+        identifier: stg_protheus_carol_fka
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cto 
+        identifier: stg_protheus_carol_cto
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cv0 
+        identifier: stg_protheus_carol_cv0
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: ab7 
+        identifier: stg_protheus_carol_ab7
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sc6 
+        identifier: stg_protheus_carol_sc6
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: fk5 
+        identifier: stg_protheus_carol_fk5
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cq5 
+        identifier: stg_protheus_carol_cq5
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: se2 
         identifier: stg_protheus_carol_se2
         columns:
-          - name: deleted
-            tests: 
+          - name: protheus_pk
+            tests:
               - dbt_expectations.expect_column_to_exist
-        tests: 
-          - dbt_expectations.expect_column_pair_values_to_be_equal:
-              column_A: TIMESTAMP
-              column_B: TIME_STAMP
-          - dbt_expectations.expect_column_pair_values_to_be_equal:
-              column_A: INSERTSTAMP
-              column_B: INSERT_STAMP
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cnb 
+        identifier: stg_protheus_carol_cnb
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cts 
+        identifier: stg_protheus_carol_cts
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sb9 
+        identifier: stg_protheus_carol_sb9
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cnf 
+        identifier: stg_protheus_carol_cnf
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: fk8 
+        identifier: stg_protheus_carol_fk8
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: i13 
+        identifier: stg_protheus_carol_i13
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cb8 
+        identifier: stg_protheus_carol_cb8
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cv3 
+        identifier: stg_protheus_carol_cv3
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sb1 
+        identifier: stg_protheus_carol_sb1
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: se1 
+        identifier: stg_protheus_carol_se1
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sa2 
+        identifier: stg_protheus_carol_sa2
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sc3 
+        identifier: stg_protheus_carol_sc3
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sd3 
+        identifier: stg_protheus_carol_sd3
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sbm 
+        identifier: stg_protheus_carol_sbm
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: aib 
+        identifier: stg_protheus_carol_aib
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: ab8 
+        identifier: stg_protheus_carol_ab8
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: fk1 
+        identifier: stg_protheus_carol_fk1
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: ct1 
+        identifier: stg_protheus_carol_ct1
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sb6 
+        identifier: stg_protheus_carol_sb6
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: qlc 
+        identifier: stg_protheus_carol_qlc
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: f76 
+        identifier: stg_protheus_carol_f76
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cb7 
+        identifier: stg_protheus_carol_cb7
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: fk7 
+        identifier: stg_protheus_carol_fk7
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: qlb 
+        identifier: stg_protheus_carol_qlb
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cve 
+        identifier: stg_protheus_carol_cve
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: f75 
+        identifier: stg_protheus_carol_f75
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: seh 
+        identifier: stg_protheus_carol_seh
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: fk9 
+        identifier: stg_protheus_carol_fk9
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: ct0 
+        identifier: stg_protheus_carol_ct0
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sd2 
+        identifier: stg_protheus_carol_sd2
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: fk6 
+        identifier: stg_protheus_carol_fk6
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sc7 
+        identifier: stg_protheus_carol_sc7
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: ct2 
+        identifier: stg_protheus_carol_ct2
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: fk4 
+        identifier: stg_protheus_carol_fk4
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cns 
+        identifier: stg_protheus_carol_cns
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cq3 
+        identifier: stg_protheus_carol_cq3
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: qld 
+        identifier: stg_protheus_carol_qld
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sd4 
+        identifier: stg_protheus_carol_sd4
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sf1 
+        identifier: stg_protheus_carol_sf1
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cna 
+        identifier: stg_protheus_carol_cna
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: ct5 
+        identifier: stg_protheus_carol_ct5
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sb3 
+        identifier: stg_protheus_carol_sb3
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sc8 
+        identifier: stg_protheus_carol_sc8
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cq2 
+        identifier: stg_protheus_carol_cq2
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: ab6 
+        identifier: stg_protheus_carol_ab6
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sc4 
+        identifier: stg_protheus_carol_sc4
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sg1 
+        identifier: stg_protheus_carol_sg1
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: se5 
+        identifier: stg_protheus_carol_se5
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cn9 
+        identifier: stg_protheus_carol_cn9
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sf2 
+        identifier: stg_protheus_carol_sf2
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cq0 
+        identifier: stg_protheus_carol_cq0
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sf4 
+        identifier: stg_protheus_carol_sf4
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sc5 
+        identifier: stg_protheus_carol_sc5
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cq1 
+        identifier: stg_protheus_carol_cq1
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cq4 
+        identifier: stg_protheus_carol_cq4
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: scj 
+        identifier: stg_protheus_carol_scj
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sc1 
+        identifier: stg_protheus_carol_sc1
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sd1 
+        identifier: stg_protheus_carol_sd1
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sc9 
+        identifier: stg_protheus_carol_sc9
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: fkb 
+        identifier: stg_protheus_carol_fkb
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cvf 
+        identifier: stg_protheus_carol_cvf
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: cq7 
+        identifier: stg_protheus_carol_cq7
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sb2 
+        identifier: stg_protheus_carol_sb2
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      - name: sck 
+        identifier: stg_protheus_carol_sck
+        columns:
+          - name: protheus_pk
+            tests:
+              - dbt_expectations.expect_column_to_exist
+              - dbt_expectations.expect_column_values_to_not_be_null
+      # - name: se2
+      #   identifier: stg_protheus_carol_se2
+      #   columns:
+      #     - name: deleted
+      #       tests: 
+      #         - dbt_expectations.expect_column_to_exist
+      #   tests: 
+      #     - dbt_expectations.expect_column_pair_values_to_be_equal:
+      #         column_A: TIMESTAMP
+      #         column_B: TIME_STAMP
+      #     - dbt_expectations.expect_column_pair_values_to_be_equal:
+      #         column_A: INSERTSTAMP
+      #         column_B: INSERT_STAMP
