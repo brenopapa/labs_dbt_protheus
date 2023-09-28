@@ -38,6 +38,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: fk2 
         identifier: stg_protheus_carol_fk2
         columns:
@@ -45,6 +47,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sa3 
         identifier: stg_protheus_carol_sa3
         columns:
@@ -52,6 +56,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: se8 
         identifier: stg_protheus_carol_se8
         columns:
@@ -59,6 +65,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sd7 
         identifier: stg_protheus_carol_sd7
         columns:
@@ -66,6 +74,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: fk3 
         identifier: stg_protheus_carol_fk3
         columns:
@@ -73,6 +83,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cq6 
         identifier: stg_protheus_carol_cq6
         columns:
@@ -80,6 +92,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sx5 
         identifier: stg_protheus_carol_sx5
         columns:
@@ -87,6 +101,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: fka 
         identifier: stg_protheus_carol_fka
         columns:
@@ -94,6 +110,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cto 
         identifier: stg_protheus_carol_cto
         columns:
@@ -101,6 +119,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cv0 
         identifier: stg_protheus_carol_cv0
         columns:
@@ -108,6 +128,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: ab7 
         identifier: stg_protheus_carol_ab7
         columns:
@@ -115,6 +137,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sc6 
         identifier: stg_protheus_carol_sc6
         columns:
@@ -122,6 +146,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: fk5 
         identifier: stg_protheus_carol_fk5
         columns:
@@ -129,6 +155,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cq5 
         identifier: stg_protheus_carol_cq5
         columns:
@@ -136,6 +164,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: se2 
         identifier: stg_protheus_carol_se2
         columns:
@@ -143,6 +173,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cnb 
         identifier: stg_protheus_carol_cnb
         columns:
@@ -150,6 +182,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cts 
         identifier: stg_protheus_carol_cts
         columns:
@@ -157,6 +191,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sb9 
         identifier: stg_protheus_carol_sb9
         columns:
@@ -164,6 +200,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cnf 
         identifier: stg_protheus_carol_cnf
         columns:
@@ -171,6 +209,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: fk8 
         identifier: stg_protheus_carol_fk8
         columns:
@@ -178,6 +218,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: i13 
         identifier: stg_protheus_carol_i13
         columns:
@@ -185,6 +227,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cb8 
         identifier: stg_protheus_carol_cb8
         columns:
@@ -192,6 +236,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cv3 
         identifier: stg_protheus_carol_cv3
         columns:
@@ -199,6 +245,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sb1 
         identifier: stg_protheus_carol_sb1
         columns:
@@ -206,6 +254,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: se1 
         identifier: stg_protheus_carol_se1
         columns:
@@ -213,6 +263,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sa2 
         identifier: stg_protheus_carol_sa2
         columns:
@@ -220,6 +272,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sc3 
         identifier: stg_protheus_carol_sc3
         columns:
@@ -227,6 +281,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sd3 
         identifier: stg_protheus_carol_sd3
         columns:
@@ -234,6 +290,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sbm 
         identifier: stg_protheus_carol_sbm
         columns:
@@ -241,6 +299,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: aib 
         identifier: stg_protheus_carol_aib
         columns:
@@ -248,6 +308,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: ab8 
         identifier: stg_protheus_carol_ab8
         columns:
@@ -255,6 +317,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: fk1 
         identifier: stg_protheus_carol_fk1
         columns:
@@ -262,6 +326,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: ct1 
         identifier: stg_protheus_carol_ct1
         columns:
@@ -269,6 +335,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sb6 
         identifier: stg_protheus_carol_sb6
         columns:
@@ -276,6 +344,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: qlc 
         identifier: stg_protheus_carol_qlc
         columns:
@@ -283,6 +353,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: f76 
         identifier: stg_protheus_carol_f76
         columns:
@@ -290,6 +362,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cb7 
         identifier: stg_protheus_carol_cb7
         columns:
@@ -297,6 +371,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: fk7 
         identifier: stg_protheus_carol_fk7
         columns:
@@ -304,6 +380,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: qlb 
         identifier: stg_protheus_carol_qlb
         columns:
@@ -311,6 +389,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cve 
         identifier: stg_protheus_carol_cve
         columns:
@@ -318,6 +398,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: f75 
         identifier: stg_protheus_carol_f75
         columns:
@@ -325,6 +407,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: seh 
         identifier: stg_protheus_carol_seh
         columns:
@@ -332,6 +416,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: fk9 
         identifier: stg_protheus_carol_fk9
         columns:
@@ -339,6 +425,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: ct0 
         identifier: stg_protheus_carol_ct0
         columns:
@@ -346,6 +434,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sd2 
         identifier: stg_protheus_carol_sd2
         columns:
@@ -353,6 +443,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: fk6 
         identifier: stg_protheus_carol_fk6
         columns:
@@ -360,6 +452,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sc7 
         identifier: stg_protheus_carol_sc7
         columns:
@@ -367,6 +461,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: ct2 
         identifier: stg_protheus_carol_ct2
         columns:
@@ -374,6 +470,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: fk4 
         identifier: stg_protheus_carol_fk4
         columns:
@@ -381,6 +479,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cns 
         identifier: stg_protheus_carol_cns
         columns:
@@ -388,6 +488,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cq3 
         identifier: stg_protheus_carol_cq3
         columns:
@@ -395,6 +497,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: qld 
         identifier: stg_protheus_carol_qld
         columns:
@@ -402,6 +506,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sd4 
         identifier: stg_protheus_carol_sd4
         columns:
@@ -409,6 +515,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sf1 
         identifier: stg_protheus_carol_sf1
         columns:
@@ -416,6 +524,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cna 
         identifier: stg_protheus_carol_cna
         columns:
@@ -423,6 +533,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: ct5 
         identifier: stg_protheus_carol_ct5
         columns:
@@ -430,6 +542,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sb3 
         identifier: stg_protheus_carol_sb3
         columns:
@@ -437,6 +551,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sc8 
         identifier: stg_protheus_carol_sc8
         columns:
@@ -444,6 +560,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cq2 
         identifier: stg_protheus_carol_cq2
         columns:
@@ -451,6 +569,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: ab6 
         identifier: stg_protheus_carol_ab6
         columns:
@@ -458,6 +578,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sc4 
         identifier: stg_protheus_carol_sc4
         columns:
@@ -465,6 +587,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sg1 
         identifier: stg_protheus_carol_sg1
         columns:
@@ -472,6 +596,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: se5 
         identifier: stg_protheus_carol_se5
         columns:
@@ -479,6 +605,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cn9 
         identifier: stg_protheus_carol_cn9
         columns:
@@ -486,6 +614,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sf2 
         identifier: stg_protheus_carol_sf2
         columns:
@@ -493,6 +623,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cq0 
         identifier: stg_protheus_carol_cq0
         columns:
@@ -500,6 +632,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sf4 
         identifier: stg_protheus_carol_sf4
         columns:
@@ -507,6 +641,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sc5 
         identifier: stg_protheus_carol_sc5
         columns:
@@ -514,6 +650,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cq1 
         identifier: stg_protheus_carol_cq1
         columns:
@@ -521,6 +659,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cq4 
         identifier: stg_protheus_carol_cq4
         columns:
@@ -528,6 +668,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: scj 
         identifier: stg_protheus_carol_scj
         columns:
@@ -535,6 +677,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sc1 
         identifier: stg_protheus_carol_sc1
         columns:
@@ -542,6 +686,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sd1 
         identifier: stg_protheus_carol_sd1
         columns:
@@ -549,6 +695,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sc9 
         identifier: stg_protheus_carol_sc9
         columns:
@@ -556,6 +704,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: fkb 
         identifier: stg_protheus_carol_fkb
         columns:
@@ -563,6 +713,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cvf 
         identifier: stg_protheus_carol_cvf
         columns:
@@ -570,6 +722,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: cq7 
         identifier: stg_protheus_carol_cq7
         columns:
@@ -577,6 +731,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sb2 
         identifier: stg_protheus_carol_sb2
         columns:
@@ -584,6 +740,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       - name: sck 
         identifier: stg_protheus_carol_sck
         columns:
@@ -591,6 +749,8 @@ sources:
             tests:
               - dbt_expectations.expect_column_to_exist
               - dbt_expectations.expect_column_values_to_not_be_null
+              - dbt_expectations.expect_compound_columns_to_be_unique:
+                  column_list: ["mdmTenantId", "company_group", "R_E_C_N_O_"]
       # - name: se2
       #   identifier: stg_protheus_carol_se2
       #   columns:
